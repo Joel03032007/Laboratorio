@@ -2,10 +2,12 @@
 
 Gestor de Impresiones - Laboratorio de Estructuras de Datos
 Este proyecto consiste en la implementación de un sistema gestor de colas e historial de impresiones desarrollado en Java, aplicando los conceptos de Pilas (Stack / LIFO) y Colas (Queue / FIFO) mediante la interfaz estandarizada Deque<E> y su implementación ArrayDeque.
+
 📋 Descripción del Sistema
 El Gestor de Impresiones simula el comportamiento de una cola de impresión en un entorno operativo, gestionando dos flujos de trabajo principales:
 Gestión de Pendientes (Cola / FIFO): Los documentos registrados entran al final de la cola y son procesados en el orden estricto de llegada (el primero en entrar es el primero en imprimirse).
 Gestión de Historial (Pila / LIFO): Los documentos ya impresos se almacenan en una pila. Esto permite realizar operaciones de cancelación/recuperación donde el último documento impreso es el primero en ser rescatado y reubicado al frente de la cola de impresión.
+
 🏗️ Estructura del Código
 El proyecto está organizado dentro del paquete laboratorio y consta de dos clases principales:
 1. GestorImpresiones.java
